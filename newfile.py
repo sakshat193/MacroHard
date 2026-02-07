@@ -1,6 +1,6 @@
 new file CHANGED!
 
-New change made here
+New change made here...
 THIS IS NEW
 
 Test THIS please

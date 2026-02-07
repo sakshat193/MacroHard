@@ -11,7 +11,7 @@ def search(arr, x):
     return -1
 
 if __name__ == "__main__":
-    arr = [2, 3, 4, 10, 40]
+    arr = [BIG SEQUENCE]
     x = 10
 
     result = search(arr, x)
@@ -20,3 +20,6 @@ if __name__ == "__main__":
     else:
         print("Element is present at index", result)
 """
+
+
+This is a different code alltogehther

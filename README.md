@@ -1,24 +1,22 @@
-<?php
-function search($arr, $x) {
-    $n = sizeof($arr);
+py
+"""
+def search(arr, x):
+    n = len(arr)
     
-    // Iterate over the array in order to
-    // find the key x
-    for($i = 0; $i < $n; $i++) {
-        if($arr[$i] == $x)
-            return $i;
-    }
-    return -1;
-}
+    # Iterate over the array in order to
+    # find the key x
+    for i in range(0, n):
+        if (arr[i] == x):
+            return i
+    return -1
 
-$arr = array(2, 3, 4, 10, 40); 
-$x = 10;
+if __name__ == "__main__":
+    arr = [2, 3, 4, 10, 40]
+    x = 10
 
-$result = search($arr, $x);
-if($result == -1)
-    echo "Element is not present in array";
-else
-    echo "Element is present at index " ,
-                                 $result;
-
-?>
+    result = search(arr, x)
+    if(result == -1):
+        print("Element is not present in array")
+    else:
+        print("Element is present at index", result)
+"""

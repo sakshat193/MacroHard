@@ -34,6 +34,15 @@ class SprintBoard:
         if total_points == 0:
             return 0.0
         return (done_points / total_points) * 100
+    # def linear_completion(self) -> float:
+    #     """Calculate linear completion based on task order"""
+    #     total_tasks = len(self.tasks)
+    #     completed_tasks = sum(1 for t in self.tasks if t.status == "Done")
+
+    #     if total_tasks == 0:
+    #         return 0.0
+    #     return (completed_tasks / total_tasks) * 100
+    
 
     def sprint_health(self) -> str:
         percent = self.completion_percentage()
